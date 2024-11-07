@@ -4,8 +4,8 @@ use gst::prelude::*;
 use gst::subclass::prelude::*;
 use gst_base::subclass::prelude::*;
 
-use moq_native::quic;
-use moq_native::tls;
+use moq_native_ietf::quic;
+use moq_native_ietf::tls;
 use moq_transport::serve::Tracks;
 use moq_transport::serve::TracksReader;
 use once_cell::sync::Lazy;
